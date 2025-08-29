@@ -39,4 +39,9 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
+# OS Specific files
 .DS_Store
+
+# Ignore Gerbers folder, but keep Gerbers.zip
+Gerbers/
+!Gerbers.zip
