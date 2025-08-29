@@ -6055,7 +6055,7 @@
 			)
 		)
 	)
-	(gr_text "1K"
+	(gr_text "1KΩ\n"
 		(at 183.5 102 0)
 		(layer "B.SilkS")
 		(uuid "02947c24-52cb-4de2-8d12-0386bb29095b")
