@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Aeris")(type "KiCad")(uri "/Users/alex/Documents/GitHub/Aeris/ESP32 Breakout/Custom Footprints.pretty")(options "")(descr ""))
+)
