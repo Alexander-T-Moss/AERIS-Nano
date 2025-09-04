@@ -1,0 +1,656 @@
+(footprint "XIAO_ESP32"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ESP32C3 Seeed Xiao RF Wifi Shield (https://www.seeedstudio.com/blog/wp-content/uploads/2022/08/Seeed-Studio-XIAO-Series-Package-and-PCB-Design.pdf)")
+	(tags "wifi bluetooth microcontroller")
+	(property "Reference" "REF**"
+		(at 7 -12 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c8a7d3b0-307c-40d3-8a96-4b70aee671a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESP32C3"
+		(at 0 3 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0559957a-42d0-49df-b0d3-3dadee66557b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26e533d1-33e5-4030-98d0-bf46c5c1219d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8670aad-5701-451d-925f-df46728f8b14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Seeed Technology Co., Ltd"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d07dda84-f67f-412c-a7e9-a71c75ba8e60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b06f9d-7cc5-459b-85df-cfef5efbb036")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9b934f6-9d26-4ed1-b448-e60fc4c1b4aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09dc93ff-cd4b-4e66-9024-18b4f2bdea61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=eda"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ad03aae-1fb6-4d1f-8b7d-f076ddf3f428")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d55cc4a-4195-4dec-9dfc-aae18f57015d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "23/05/2022"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "574eb8b8-815e-4a35-b852-b8dc8f93ddb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/113991054/Seeed+Studio/view-part/?ref=snap"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16cd015a-eaa4-4386-ac37-16bff7fd3eb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "113991054"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "943746c9-f9f1-45b0-8443-7b43c37ff2d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "- ESP32-C3 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) 2.4GHz Evaluation Board"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d081c3cb-7f3b-46bb-ab32-11b1c5e9d067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_PN" "113991054"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15192c9e-61d0-47d6-aafc-026bc78abac9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ee4713c-d0d7-46ef-8506-a8c37d0eaf04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Seeed Technology"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "972936b0-757d-442b-aff5-71e5ea7890a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 6.729424 -10.499999)
+		(end -6.6 -10.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1bb07f04-d0b9-4e6c-8fd7-30a052624f13")
+	)
+	(fp_line
+		(start -6.7 10.5)
+		(end 6.7 10.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a23a1c3b-fff2-4220-a9c8-5cfb7d07136c")
+	)
+	(fp_arc
+		(start 8.8 9)
+		(mid 7.97723 10.068121)
+		(end 6.7 10.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06e1b373-142b-4752-81f7-0ba5bb39d232")
+	)
+	(fp_arc
+		(start 6.6 -10.499999)
+		(mid 7.944326 -10.107118)
+		(end 8.804034 -9.001464)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8de778e2-11ce-4c05-8167-544e228e431f")
+	)
+	(fp_arc
+		(start -6.7 10.5)
+		(mid -7.977232 10.068125)
+		(end -8.8 9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bad06b3-edf1-47a0-8af7-b5eeecc3a79e")
+	)
+	(fp_arc
+		(start -8.812892 -9.00468)
+		(mid -7.949609 -10.111769)
+		(end -6.600468 -10.499999)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "805ef962-ab0f-4148-a66e-65e30c5dded5")
+	)
+	(fp_rect
+		(start -11 -12)
+		(end 11 11)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "457742eb-6268-4fd3-90cb-3121a3abbcf4")
+	)
+	(fp_line
+		(start 8.9 -8.5)
+		(end 8.9 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "24d416e9-95da-401a-93da-79193d98215c")
+	)
+	(fp_line
+		(start 6.7 10.5)
+		(end -6.7 10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "00cbbdbf-fbf6-4366-810a-983522f836b2")
+	)
+	(fp_line
+		(start -6.7 -10.5)
+		(end 7 -10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ce4406f6-d520-4561-a8d8-31824b557961")
+	)
+	(fp_line
+		(start -8.9 8.5)
+		(end -8.9 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b40d708d-ba34-460a-93ca-790860b7bb89")
+	)
+	(fp_arc
+		(start 8.9 8.5)
+		(mid 8.214214 9.955635)
+		(end 6.7 10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f26dc208-7f98-4239-9459-f5a62d183c77")
+	)
+	(fp_arc
+		(start 6.7 -10.499999)
+		(mid 8.214695 -9.954473)
+		(end 8.9 -8.497676)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "26ba021e-0fc3-4c2d-b8a9-dc79b70e86f9")
+	)
+	(fp_arc
+		(start -6.7 10.5)
+		(mid -8.214214 9.955635)
+		(end -8.9 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "692c7582-e69e-4c0d-8928-cc50cf665e38")
+	)
+	(fp_arc
+		(start -8.9 -8.5)
+		(mid -8.214214 -9.955635)
+		(end -6.7 -10.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "00989fa7-dcfb-4049-b527-bf35ef45cbe9")
+	)
+	(fp_text user "USB"
+		(at 0 -9 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c39a36a-7407-4439-a62a-b53aa6158ba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "ESP32C6"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c9a06788-3f4a-45fe-a3cd-19185ec92255")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SEEED XIAO"
+		(at 0 -1 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6450c49-cf62-4be9-9818-3d84fed5da9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8936ba3-68af-4039-b5aa-bc42fc1da934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -8.5 -7.62 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "be067207-ecf1-4954-b737-cfc97ec51c60")
+	)
+	(pad "2" smd roundrect
+		(at -8.5 -5.08 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "64a1e4a9-2582-47a8-a222-21cdaac19f0d")
+	)
+	(pad "3" smd roundrect
+		(at -8.5 -2.54 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b40fe3ca-0fbb-48ad-8603-67f5d69ae56b")
+	)
+	(pad "4" smd roundrect
+		(at -8.5 0 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c17572a0-637c-4460-b441-117504bffb45")
+	)
+	(pad "5" smd roundrect
+		(at -8.5 2.54 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "bc29aa2a-c7e8-4bfc-99f3-dd5d5a12f7f0")
+	)
+	(pad "6" smd roundrect
+		(at -8.5 5.08 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "dfc87222-3615-4244-9f9b-4c2065b0e842")
+	)
+	(pad "7" smd roundrect
+		(at -8.5 7.62 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "362e3aa7-a06d-4ea6-becc-b1ba38ea074f")
+	)
+	(pad "8" smd roundrect
+		(at 8.5 7.62 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "074cb7b5-782e-4b67-9993-493de5a40362")
+	)
+	(pad "9" smd roundrect
+		(at 8.5 5.08 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "02270b95-66d9-4ccb-8c7a-90dbf3a5a295")
+	)
+	(pad "10" smd roundrect
+		(at 8.5 2.54 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9a5c82f6-e50d-4ceb-9ae9-cd018b53f431")
+	)
+	(pad "11" smd roundrect
+		(at 8.5 0 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a6c742c0-3429-4833-bb1c-899aacf84cab")
+	)
+	(pad "12" smd roundrect
+		(at 8.5 -2.54 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "793242dc-4ef4-4a90-b280-872019b4f01e")
+	)
+	(pad "13" smd roundrect
+		(at 8.5 -5.08 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c38f2579-b8c0-406f-ae64-6d28e42b0f06")
+	)
+	(pad "14" smd roundrect
+		(at 8.5 -7.62 180)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0fee94b4-76b9-4c4a-9099-0a36262bb0f2")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "ea8108c4-cb74-48ba-be00-82858ef18901")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 357.65 1.15) (xy 354.15 1.15) (xy 354.15 -2.35) (xy 357.65 -2.35)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "c19992ef-341f-483a-9964-378d78a7c08b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 360 9.5) (xy 356 9.5) (xy 356 2.5) (xy 360 2.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "1ab0056c-7390-42a0-93d4-437470d6b302")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 363.65 2.95) (xy 361.35 2.95) (xy 361.35 -0.25) (xy 363.65 -0.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/Users/alex/Documents/GitHub/AERIS-Nano/CAD/Reference/Seeed Studio XIAO-ESP32-C3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
