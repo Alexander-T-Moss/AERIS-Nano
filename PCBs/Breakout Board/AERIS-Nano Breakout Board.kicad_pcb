@@ -34,6 +34,50 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -359,7 +403,7 @@
 			(uuid "fef73186-2cd4-4e9b-ba4e-ba27d23f96d6")
 		)
 		(embedded_fonts no)
-		(model "/Users/alex/Downloads/SSD1306-0.96-128x64.step"
+		(model "/Users/alex/Documents/GitHub/AERIS-Nano/CAD/Reference/SSD1306-0.96-128x64.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3743,7 +3787,7 @@
 			(uuid "4a993a42-90ae-4d14-892f-476fe17af881")
 		)
 		(embedded_fonts no)
-		(model "/Users/alex/Downloads/BME280.step"
+		(model "/Users/alex/Documents/GitHub/AERIS-Nano/CAD/Reference/BME280.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4282,7 +4326,7 @@
 			(uuid "43b26755-8425-4f53-9e2c-43348c342844")
 		)
 		(embedded_fonts no)
-		(model "/Users/alex/Downloads/JST 2 Pin Horizontal.step"
+		(model "/Users/alex/Documents/GitHub/AERIS-Nano/CAD/Reference/JST 2 Pin Horizontal.step"
 			(offset
 				(xyz 0 0 -3)
 			)
@@ -4768,7 +4812,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "1bb967c1-eddc-440d-add6-bf088f101a69")
+			(uuid "d79cd5b8-893c-48dc-ab5e-13bce25ff8f0")
 			(effects
 				(font
 					(size 1 1)
@@ -4781,7 +4825,7 @@
 			(at 0 -3 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "617fe7d6-9de9-40e7-9dac-fea23ffb6afa")
+			(uuid "b822fdec-a286-4904-96de-d6f065b909fe")
 			(effects
 				(font
 					(size 1 1)
@@ -4795,7 +4839,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3bc98593-38bd-4065-a4a5-5aa080bed957")
+			(uuid "6c01324c-1f75-4e4f-8395-26347708d06f")
 			(effects
 				(font
 					(size 1 1)
@@ -4809,7 +4853,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fbaf1f3a-58e9-4c05-a56b-2d776600e193")
+			(uuid "07d2017c-d1a1-4c7b-993b-e8a6e0ae2ed0")
 			(effects
 				(font
 					(size 1 1)
@@ -5176,7 +5220,7 @@
 				(justify mirror)
 			)
 		)
-		(fp_text user "ESP32-C3/C6"
+		(fp_text user "ESP32C6"
 			(at 0 -1 180)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -5466,7 +5510,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "/Users/alex/Library/Mobile Documents/com~apple~CloudDocs/KiCad Library/Seeed Studio/XIAO ESP32C3/XIAO_ESP32C3.STEP"
+		(model "/Users/alex/Documents/GitHub/AERIS-Nano/CAD/Reference/Seeed Studio XIAO-ESP32-C3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5474,7 +5518,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -5692,7 +5736,7 @@
 			(uuid "fe50e5e6-7f13-4f40-9715-fb1784bacd6c")
 		)
 		(embedded_fonts no)
-		(model "/Users/alex/Downloads/TO-92 Inline.step"
+		(model "/Users/alex/Documents/GitHub/AERIS-Nano/CAD/Reference/TO-92 Inline.step"
 			(offset
 				(xyz 0 0 -3)
 			)

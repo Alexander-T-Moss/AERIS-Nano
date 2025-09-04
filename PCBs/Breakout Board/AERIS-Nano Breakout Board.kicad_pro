@@ -512,7 +512,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Downloads/Aeris-Nano.step",
+      "step": "../../CAD/PCBs/Aeris-Nano.step",
       "svg": "",
       "vrml": ""
     },
